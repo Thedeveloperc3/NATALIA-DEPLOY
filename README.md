@@ -1,9 +1,9 @@
-# Secktor-Deploy
+# NATALIA-DEPLOY
 
 ## Deploy in any shell including Termux
--  [Termux Installation Video tutorial](https://youtu.be/ZgYFPWJdgms)
+
 -  All you need is patient and Internet and shell or phone with termux.
--  If you don't have termux install from [Termux here with no issues.](https://f-droid.org/repo/com.termux_118.apk)
+-  If you don't have termux install [Termux here with no issues.](https://f-droid.org/repo/com.termux_118.apk)
 -  First fork Repo and edit sample-config.env to config.env
 -  Fill variables in config.env file.
 -  Don't put OWNER_NUMBER,MONGODB_URI,SESSION_ID as it can be stolen.
@@ -11,13 +11,14 @@
 -  Open shell or termux and run this commands
 
   ```
-  bash <(curl -L https://github.com/SamPandey001/Secktor-Deploy/raw/main/install.sh)
+  bash <(curl -L https://github.com/thedeveloperc3/NATALIA-Deploy/raw/main/install.sh)
   ```
 - If you see pop up (curl is not installed) run
 
-        apt-get install curl
+ apt-get install curl
 
 -  Put your github username when it asks
+
 -  Volla!! bot is alive.
 
 -  Restart bot.
@@ -25,11 +26,11 @@
 
 - Stop Bot
 
-         ctrl+c then npm stop secktor
+  ctrl+c then npm stop Natalia
 
 - Start again.
 
-         cd Secktor-Md
+         cd Natalia-Md
          npm start
          
 - Change env variables.
@@ -47,6 +48,6 @@
 
     4. To change session and restart
 
-           cd Secktor-Md/lib/auth_info_baileys && rm -rf *
+           cd Natalia-Md/lib/auth_info_baileys && rm -rf *
            cd .. && npm start
 
